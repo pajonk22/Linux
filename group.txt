@@ -9,3 +9,6 @@ sudo usermod -aG <groupname>  <username>          # "aG" will append and add to 
 
 sudo gpasswd -d <username> <groupname>      #delete user from group 
 
+
+sudo groupdel <groupname>   #delete group
+
