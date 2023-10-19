@@ -1,0 +1,23 @@
+cat /etc/passwd
+
+cat /ect/shadow
+
+sudo -i # become root user
+paswwd  # set password
+
+adduser <username>  
+
+sudo passwd <username>  #set password for user
+
+usermod <username> --shell /bin/bash
+
+usermod -l <new username> <old username>
+
+su -  # will switch to root
+
+sudo su -  # will levereage current user to switch to root
+
+sudo visudo  #sudoers file
+
+
+sudo suerdel <username>

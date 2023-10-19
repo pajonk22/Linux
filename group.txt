@@ -1,0 +1,11 @@
+sudo groupadd <groupname> 
+
+cat /ect/group    #check groups
+
+groups  #will show what gruop I'm a member of
+
+sudo usermod -aG <groupname>  <username>          # "aG" will append and add to a group
+
+
+sudo gpasswd -d <username> <groupname>      #delete user from group 
+
